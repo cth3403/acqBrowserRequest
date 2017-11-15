@@ -1,0 +1,39 @@
+{
+  "name": "Liaison Librarian Request",
+  "version": "2.0.3",
+  "version_name": "2.0.3",
+  "manifest_version": 2,
+  "description": "Liaison Librarian Request ",
+  "homepage_url": "http://library.liv.ac.uk",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "src/bg/background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "Library Request",
+    "default_popup": "src/browser_action/browser_action.html"
+  },
+  "permissions": [
+    "activeTab",
+    "http://libapps.liv.ac.uk/" ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*", "https://*/*"
+      ],
+      "js": [
+        "src/inject/jquery.min.js",
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
