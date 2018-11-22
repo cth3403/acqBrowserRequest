@@ -90,7 +90,7 @@ function checkCat(bibDetails) {
           "librarian": {
           "type": "string",
           "title": "Requesting Librarian",
-          "enum":['Acquisition - libbook@liv.ac.uk','Collection Management - sadaly@liverpool.ac.uk; sugar@liverpool.ac.uk','Customer Services - sjinfsup@liv.ac.uk','Licensing Managers - licences@liverpool.ac.uk','SCA - scastaff@liverpool.ac.uk','Beryl Stanley - bstanley@liv.ac.uk','Carole Rhodes - crhodes@liv.ac.uk','Catherine Mcmanamon - C.Mcmanamon@liv.ac.uk','Clair Sharpe - csharpe@liv.ac.uk','Emma Thompson - ejt@liverpool.ac.uk','Ken Linkman - k.linkman@liv.ac.uk','Lisa Hawksworth - Lisa.Hawksworth@liv.ac.uk','Lynne Meehan - lonlib@liverpool.ac.uk','Nicola Kerr - NKerr@liv.ac.uk','Ruth Russell - lonlib@liverpool.ac.uk','Sarah Roughley - sarah13@liv.ac.uk','Shirley Yearwood-Jackman - sjackman@liv.ac.uk','Zelda Chatten - z.chatten@liv.ac.uk','Zoe Gibbs-Monaghan - z.summers@liv.ac.uk','Joe Schulkins - jschulkins@gmail.com','Rachel Schulkins - rachelb@liv.ac.uk'],
+          "enum":['Acquisition - libbook@liv.ac.uk','Collection Management - sadaly@liverpool.ac.uk; sugar@liverpool.ac.uk','Customer Services - sjinfsup@liv.ac.uk','Licensing Managers - licences@liverpool.ac.uk','SCA - scastaff@liverpool.ac.uk','Beryl Stanley - bstanley@liv.ac.uk','Carole Rhodes - crhodes@liv.ac.uk','Catherine Mcmanamon - C.Mcmanamon@liv.ac.uk','Clair Sharpe - csharpe@liv.ac.uk','Emma Thompson - ejt@liverpool.ac.uk','Lisa Hawksworth - Lisa.Hawksworth@liv.ac.uk','Louise Minta - lminta@liverpool.ac.uk','Nicola Gregory - ngregory@liverpool.ac.uk','Nicola Kerr - NKerr@liv.ac.uk','Ruth Russell - lonlib@liverpool.ac.uk','Sarah Roughley - sarah13@liv.ac.uk','Shirley Yearwood-Jackman - sjackman@liv.ac.uk','Zelda Chatten - z.chatten@liv.ac.uk','Zoe Gibbs-Monaghan - z.summers@liv.ac.uk','Joe Schulkins - jschulkins@gmail.com','Rachel Schulkins - rachelb@liv.ac.uk'],
           "dependencies": ["choice"]
           },
           "missing": {
@@ -215,7 +215,7 @@ function checkCat(bibDetails) {
         "librarian":{
           "noneLabel": "-- Select --",
           "removeDefaultNone": false,
-          "optionLabels": ['Acquisition','Collection Management','Customer Services','Licensing Managers','SCA','Beryl Stanley','Carole Rhodes','Catherine Mcmanamon','Clair Sharpe','Emma Thompson','Ken Linkman','Lisa Hawksworth','Lynne Meehan','Nicola Kerr','Ruth Russell','Sarah Roughley','Shirley Yearwood-Jackman','Zelda Chatten','Zoe Gibbs-Monaghan','Joe Schulkins','Rachel Schulkins'],
+          "optionLabels": ['Acquisition','Collection Management','Customer Services','Licensing Managers','SCA','Beryl Stanley','Carole Rhodes','Catherine Mcmanamon','Clair Sharpe','Emma Thompson','Lisa Hawksworth','Louise Minta','Nicola Gregory','Nicola Kerr','Ruth Russell','Sarah Roughley','Shirley Yearwood-Jackman','Zelda Chatten','Zoe Gibbs-Monaghan','Joe Schulkins','Rachel Schulkins'],
           "dependencies":{
             "choice": "Additional"
           },
